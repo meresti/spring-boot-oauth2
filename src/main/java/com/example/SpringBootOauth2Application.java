@@ -31,7 +31,7 @@ import java.util.List;
 
 @SpringBootApplication
 @RestController
-public class SpringBoorOauth2Application {
+public class SpringBootOauth2Application {
 
 	@RequestMapping("/user")
 	public Principal user(final Principal principal) {
@@ -39,7 +39,7 @@ public class SpringBoorOauth2Application {
 	}
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringBoorOauth2Application.class, args);
+		SpringApplication.run(SpringBootOauth2Application.class, args);
 	}
 
 	@EnableOAuth2Client
